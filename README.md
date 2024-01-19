@@ -14,6 +14,16 @@ prospects and comprise a team you believe is most suitable to win it all!
 2. Run Build_Team.ipynb 
     - In this file you will see a list of players with top rushing yards sorted by their position. The reason for this is for anyone to quickly get a list of top offensive players to add to a team.
     - For more complex searches and sorting I recommend using the postgres tables created above. The dataframes created in Build_Team are for ease of use functionality. 
+    - Setup psycopg2 db connection with your database info in the pick_players function.
+        ```python
+        conn = psycopg2.connect(
+            dbname = dbname,
+            user = user,
+            password = password,
+            host = host,
+            port = port
+            )
+        ```
     - Execute pick players function
         - Enter player first and last name (Player name must be capitolized) in the input field. 
         - Type 'done' if you only want to add a couple of players to your team. 
