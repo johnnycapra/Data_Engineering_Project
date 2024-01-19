@@ -24,8 +24,8 @@ prospects and comprise a team you believe is most suitable to win it all!
 ## Ethical Considerations
 
 ## References
-    - https://www.kaggle.com/datasets/jpmiller/nfl-competition-data?resource=download
-    - https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset/code
+- https://www.kaggle.com/datasets/jpmiller/nfl-competition-data?resource=download
+- https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset/code
 
     
     
