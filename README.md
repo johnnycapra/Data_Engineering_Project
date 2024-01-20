@@ -24,12 +24,12 @@ prospects and comprise a team you believe is most suitable to win it all!
             port = port
             )
         ```
-    - Execute pick players function
+    - Execute PickFantasyPlayers:
         - Enter player first and last name (Player name must be capitolized) in the input field. 
-        - Type 'done' if you only want to add a couple of players to your team. 
-        - You are allowed to add up to 6 players on a team.  
+        - You are allowed to add up to 6 players on a team. 
+        - Once done adding team members click the finish and push button. 
         - A team name is required, do not use spaces. 
-        - Once complete your team will automatically be output to a csv file in the output_data directory
+        - Once complete your team will automatically be output to a csv file in the output_data directory and to your postgresql DB.
 
 ## Ethical Considerations
 
