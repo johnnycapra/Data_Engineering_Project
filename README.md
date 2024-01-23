@@ -39,6 +39,8 @@ We took great care in the ethical considerations throughout the course of this p
 ## References
 - https://www.kaggle.com/datasets/jpmiller/nfl-competition-data?resource=download
 - https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset/code
+- https://docs.python.org/3/library/tkinter.html
+- https://tkdocs.com/tutorial/index.html
 
     
     
