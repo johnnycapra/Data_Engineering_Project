@@ -17,10 +17,20 @@ CREATE TABLE rushing (
 	td VARCHAR(30) NOT NULL
 );
 
+
 SELECT * FROM rushing;
 
 SELECT * FROM injury;
 
+-- Join rushing table on injuries 
 SELECT *
 FROM rushing
 JOIN injury ON injury.player=rushing.player;
+
+-- Join your team to see which players could be more prone to injuries 
+SELECT *
+FROM demo
+JOIN injury ON injury.player=demo.player;
+
+-- View your team
+SELECT * FROM demo;
